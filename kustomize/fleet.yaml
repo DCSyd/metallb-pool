@@ -1,0 +1,14 @@
+defaultNamespace: metallb-system
+targetCustomizations:
+- name: site1
+  clusterSelector:
+    matchLabels:
+      name: site1
+  kustomize:
+    dir: ippool/site1
+- name: site2
+  clusterSelector:
+    matchLabels:
+      name: site2
+  kustomize:
+    dir: ippool/site2
