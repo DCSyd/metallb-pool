@@ -9,4 +9,4 @@ data:
     - name: lbs
       protocol: bgp
       addresses:
-      - 192.168.86.7/32
+      - 192.168.86.4/30
