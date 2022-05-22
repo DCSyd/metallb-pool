@@ -3,12 +3,12 @@ targetCustomizations:
 - name: site1
   clusterSelector:
     matchLabels:
-      name: site1
+      site: site1
   kustomize:
     dir: ippool/site1
 - name: site2
   clusterSelector:
     matchLabels:
-      name: site2
+      site: site2
   kustomize:
     dir: ippool/site2
