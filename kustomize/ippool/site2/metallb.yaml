@@ -7,6 +7,6 @@ data:
   config: |
     address-pools:
     - name: lbs
-      protocol: bgp
+      protocol: layer2
       addresses:
       - 192.168.86.8/30
