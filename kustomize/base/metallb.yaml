@@ -14,7 +14,7 @@ data:
   config: |
     address-pools:
     - name: lbs
-      protocol: bgp
+      protocol: layer2
       addresses:
       - 1.1.1.1/32
 ---
