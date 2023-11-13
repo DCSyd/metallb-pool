@@ -1,12 +1,8 @@
-apiVersion: v1
-kind: ConfigMap
+apiVersion: metallb.io/v1beta1
+kind: IPAddressPool
 metadata:
+  name: pool1
   namespace: metallb-system
-  name: config
-data:
-  config: |
-    address-pools:
-    - name: lbs
-      protocol: layer2
-      addresses:
-      - 192.168.86.8/30
+spec:
+  addresses:
+  - 192.168.86.8/30
