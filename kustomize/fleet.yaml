@@ -12,21 +12,3 @@ targetCustomizations:
       site: site2
   kustomize:
     dir: ippool/site2
-- name: liqo1
-  clusterSelector:
-    matchLabels:
-      site: liqo1
-  kustomize:
-    dir: ippool/liqo1
-- name: liqo2
-  clusterSelector:
-    matchLabels:
-      site: liqo2
-  kustomize:
-    dir: ippool/liqo2
-- name: liqo3
-  clusterSelector:
-    matchLabels:
-      site: liqo3
-  kustomize:
-    dir: ippool/liqo3
